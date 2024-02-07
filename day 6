@@ -1,0 +1,29 @@
+ #include<studio.h>
+
+//print array of elements 
+
+int main()  
+{  
+    int arr[10];
+    int i;  
+   
+    printf("\n\nRead and Print element anarray\n");
+    
+    
+    printf("Input 10 elements in the array :\n"); 
+ 
+    for(i=0; i<10; i++)  
+    {  
+	    printf("element - %d : ",i); 
+        scanf("%d", &arr[i]);  
+
+    }  
+    
+    printf("\nElements in array are: ");  
+    for(i=0; i<10; i++)  
+    {  
+        printf("%d  ", arr[i]);
+    } 
+    printf("\n");
+	return
+}
