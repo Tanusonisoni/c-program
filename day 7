@@ -1,0 +1,15 @@
+//Online C++ compiler to run C++ program 
+
+#include<iostream>
+using namespace std;
+int main(){
+    int numbers[4]={2 ,4 ,6 ,4};
+    int result=0;
+   
+   for(int i=0;i<4;i++)
+   {
+       result+=numbers[i];
+       
+   }
+   cout << "result:" <<result <<endl;
+}
